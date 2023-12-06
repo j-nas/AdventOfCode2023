@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    
+    "configurations": [
+        {
+            "name": "C#: Day1",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/Day1/Day1.csproj",
+            "launchConfigurationId": "TargetFramework=;Day1",
+            "internalConsoleOptions": "openOnSessionStart",
+            "console": "internalConsole"
+        },
+        
+    ]
+}
