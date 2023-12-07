@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Day2;
 
-Console.WriteLine("Hello, World!");
+var input = File.ReadAllLines("input.txt").ToList();
+
+var partOneTotal = new PartOne(input).Solve();
+
+Console.WriteLine($"Total: {partOneTotal}");
