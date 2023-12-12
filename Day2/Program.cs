@@ -2,6 +2,9 @@
 
 var input = File.ReadAllLines("input.txt").ToList();
 
-var partOneTotal = new PartOne(input).Solve();
+var partOne = new PartOne(input, []);
+var partOneTotal = partOne.Solve();
+var partTwoTotal = new PartTwo(partOne.Games).Solve();
 
-Console.WriteLine($"Total: {partOneTotal}");
+Console.WriteLine($"Part one total: {partOneTotal}");
+Console.WriteLine($"Part two total: {partTwoTotal}");
